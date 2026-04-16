@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Cormorant_Garamond, Inter } from "next/font/google"; 
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -34,7 +36,9 @@ export default function RootLayout({
       className={cn("h-full", "antialiased", plusJakartaSans.variable, cormorantGaramond.variable, "font-sans", inter.variable)}
     >
       <body className="font-sans ">
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

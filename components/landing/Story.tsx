@@ -6,7 +6,7 @@ export default function StorySection() {
         <section className="w-full min-h-[500px] md:h-[650px] relative overflow-hidden">
             <div className="absolute inset-0">
                 <img
-                    src="https://www.bellodesainstudio.com/storage/portfolio/jxXgCOwnp6knLBaVKxpVPwuaoWUxDbixUkpMDmF1.jpg"
+                    src="https://images.unsplash.com/photo-1775980167814-6155503d497b?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Story Background"
                     className="w-full h-full object-cover"
                 />
@@ -27,7 +27,7 @@ export default function StorySection() {
                     <div className="flex items-center gap-3 py-1">
                         <div className="w-10 h-10 rounded-full overflow-hidden border border-white/30 shrink-0">
                             <img
-                                src="https://www.bellodesainstudio.com/asset/images/teams/indra.jpg"
+                                src="https://images.unsplash.com/photo-1775980167814-6155503d497b?q=80&w=2428&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Doctor"
                                 className="w-full h-full object-cover"
                             />
