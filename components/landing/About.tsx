@@ -52,7 +52,7 @@ const About = () => {
                         className="relative md:w-full md:max-w-6xl aspect-[15/10] md:aspect-[21/9] rounded-tr-[40px] md:rounded-tr-[100px] rounded-bl-[40px] md:rounded-bl-[100px] overflow-hidden border border-white/10 shadow-2xl mx-auto"
                     >
                         <img
-                            src="http://localhost:3000/_next/image?url=https%3A%2F%2Fwww.bellodesainstudio.com%2Fasset%2Fimages%2Fprofile_home.jpg&w=1080&q=75"
+                            src="https://www.bellodesainstudio.com/asset/images/home1.png"
                             alt="Space Background"
                             className="w-full h-full object-cover scale-110 brightness-75"
                         />

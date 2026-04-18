@@ -1,6 +1,7 @@
-import { ChevronDown } from "lucide-react"
+import { ChevronDown } from 'lucide-react'
+import React from 'react'
 
-const Hero = () => {
+const HeroAR = () => {
     return (
         <section className="relative w-full h-[60vh] flex flex-col items-center justify-center overflow-hidden bg-stone-950">
 
@@ -15,17 +16,14 @@ const Hero = () => {
 
             <div className="relative z-20 text-center flex flex-col items-center px-4 max-w-6xl mx-auto">
                 <h1 className="text-3xl md:text-5xl font-serif font-light tracking-wider text-white leading-tight mb-6 uppercase">
-                    Nature Inspired, <br />
-                    <span className="italic">Brand Defined</span>
+                    Augmented Reality.
                 </h1>
 
                 <p className="text-white text-[11px] md:text-xs font-light tracking-[0.2em] max-w-2xl mx-auto mb-8 opacity-80 font-sans uppercase">
-                    Rooted in <span className="font-semibold">nature</span>,
-                    we built harmony between <span className="font-semibold">human, space, and nature.</span>
+                   Eksplorasi portofolio terpilih dari Bello Design Studio. Setiap detail dirancang untuk memberikan pengalaman ruang yang eksklusif, mewah, dan personal.
                 </p>
             </div>
 
-            {/* Scroll indicator dibuat lebih mungil (w-16 h-16) untuk menyeimbangkan tinggi section */}
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center">
                 <div className="group cursor-pointer flex flex-col items-center">
                     <div className="w-16 h-16 rounded-full border border-white/30 flex flex-col items-center justify-center transition-all duration-500 group-hover:border-white group-hover:scale-105 relative">
@@ -45,4 +43,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default HeroAR

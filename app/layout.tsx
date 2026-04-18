@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   description: "Creating spaces that tell your story.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -39,6 +44,7 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer/>
+
       </body>
     </html>
   );

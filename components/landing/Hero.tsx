@@ -5,10 +5,9 @@ const Hero = () => {
     return (
         <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-stone-950">
 
-{/* https://www.bellodesainstudio.com/asset/images/home1.png */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="http://localhost:3000/_next/image?url=https%3A%2F%2Fwww.bellodesainstudio.com%2Fstorage%2Fportfolio%2FuJbq6TBenFkKioeI33TyGB93KrW4WGEPh1vTJRu2.jpg&w=3840&q=75"
+                    src="https://www.bellodesainstudio.com/asset/images/home1.png"
                     alt="Luxury Interior"
                     className="w-full h-full object-cover opacity-70"
                 />
