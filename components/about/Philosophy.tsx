@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Philosophy = () => {
     return (
-        <section className="relative w-full py-20 flex flex-col items-center justify-center overflow-hidden bg-[#1A365D]">
+        <section className="relative w-full mt-8 py-16 flex flex-col items-center justify-center overflow-hidden bg-[#1A365D]">
             
             <div className="container mx-auto px-4 z-20 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
                 

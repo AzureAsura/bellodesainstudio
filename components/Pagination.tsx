@@ -8,23 +8,20 @@ const Pagination = () => {
     const currentPage = 2;
 
     return (
-        <nav className="bg-white py-12 flex justify-center items-center">
-            {/* Wrapper: Border-collapse style biar solid */}
+        <nav className="bg-white pb-20 flex justify-center items-center">
             <div className="flex items-center border border-stone-200 shadow-sm">
                 
-                {/* Prev */}
-                <button className="p-4 flex items-center justify-center bg-white text-[#1A365D] hover:bg-stone-50 border-r border-stone-200 transition-colors">
+                <button className="p-3 md:p-4 flex items-center justify-center bg-white text-[#1A365D] hover:bg-stone-50 border-r border-stone-200 transition-colors">
                     <ChevronLeft className="w-6 h-6" strokeWidth={1.5} />
                 </button>
 
-                {/* Numbers */}
                 <div className="flex">
                     {pages.map((page) => {
                         const isActive = page === currentPage;
                         return (
                             <div 
                                 key={page}
-                                className={`relative p-4 flex items-center justify-center cursor-pointer transition-all duration-300 border-r border-stone-200 last:border-r-0 min-w-[64px]
+                                className={`relative p-3 md:p-4 flex items-center justify-center cursor-pointer transition-all duration-300 border-r border-stone-200 last:border-r-0 
                                     ${isActive ? 'bg-[#1A365D]' : 'bg-white hover:bg-stone-50'}`}
                             >
 
@@ -38,7 +35,7 @@ const Pagination = () => {
                 </div>
 
                 {/* Next */}
-                <button className="p-4 flex items-center justify-center bg-white text-[#1A365D] hover:bg-stone-50 border-l border-stone-200 transition-colors">
+                <button className="p-3 md:p-4 flex items-center justify-center bg-white text-[#1A365D] hover:bg-stone-50 border-l border-stone-200 transition-colors">
                     <ChevronRight className="w-6 h-6" strokeWidth={1.5} />
                 </button>
 

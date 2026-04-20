@@ -53,7 +53,7 @@ const ServicePage = async ({ params }: { params: { id: string } }) => {
                 <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black/90 to-transparent z-10" />
             </section>
 
-            <section className="py-24 px-4 overflow-hidden">
+            <section className="py-10 md:py-20 px-4 overflow-hidden">
                 <div className="max-w-7xl mx-auto">
                     <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
                         <div className="flex-1 space-y-8">
@@ -82,13 +82,13 @@ const ServicePage = async ({ params }: { params: { id: string } }) => {
             </section>
 
 
-            <section className="bg-stone-50 py-24 px-4 overflow-hidden">
+            <section className="bg-stone-50 mt-10 py-16 px-4 overflow-hidden">
                 <div className="max-w-7xl mx-auto">
                     <ArticleDesc blocks={data.quote} />
                 </div>
             </section>
 
-            <section className="py-32 overflow-hidden">
+            <section className="py-20 overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4">
                     <Carousel opts={{ align: "start" }} className="w-full relative">
                         <CarouselContent className="-ml-4">

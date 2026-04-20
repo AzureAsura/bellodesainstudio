@@ -33,7 +33,7 @@ const ListingsVR = () => {
     ];
 
     return (
-        <section className="bg-white py-24 px-4">
+        <section className="bg-white py-10 md:py-20 px-4">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {projects.map((item, index) => (
@@ -75,15 +75,9 @@ const ListingsVR = () => {
                                     <p className="text-[11px] text-[#1A365D] font-sans uppercase tracking-[0.2em] leading-relaxed opacity-70">
                                         PROJECT BY <span className="font-bold opacity-100">{item.owner}</span>
                                     </p>
-                                    <div className="w-full h-[1px] bg-[#1A365D]/10 mt-4 group-hover:bg-[#C5A059] transition-colors duration-500" />
+
                                 </div>
 
-                                <div className="flex items-center gap-3 mt-2 group/link cursor-pointer">
-                                    <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#1A365D] font-sans">
-                                        View Project
-                                    </span>
-                                    <ArrowRight className="w-4 h-4 text-[#C5A059] transition-transform duration-300 group-hover/link:translate-x-2" />
-                                </div>
                             </div>
                         </motion.article>
                     ))}

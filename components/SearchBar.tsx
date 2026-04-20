@@ -8,8 +8,8 @@ const SearchBar = () => {
     const [isFocused, setIsFocused] = useState(false);
 
     return (
-        <section className="bg-white pt-20 px-4 w-full flex justify-center items-center">
-            <div className="max-w-7xl w-full flex flex-col gap-6">
+        <section className="bg-white pt-10 md:pt-20 px-4 w-full flex justify-center items-center">
+            <div className="max-w-7xl w-full flex flex-col md:gap-4">
                 
                 <div className="flex items-center gap-3">
                     <span className="w-[1px] h-4 bg-[#C5A059]" />
@@ -18,7 +18,7 @@ const SearchBar = () => {
                     </span>
                 </div>
 
-                <div className="relative flex items-center group h-24 md:h-32 border-b border-stone-200">
+                <div className="relative flex items-center group h-24 border-b border-stone-200">
                     
                     <input
                         type="text"

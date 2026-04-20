@@ -198,6 +198,30 @@ const Navbar = () => {
                             </Accordion>
                         </div>
 
+                         <div className={`w-full transition-all duration-700 transform ${mobileMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                            style={{ transitionDelay: `${navLinks.length * 100}ms` }}>
+                            <Accordion type="single" collapsible className="w-full">
+                                <AccordionItem value="portfolio" className="border-none">
+                                    <AccordionTrigger className="text-4xl md:text-6xl font-serif font-medium tracking-widest text-white hover:no-underline p-0 py-2 group">
+                                        Services
+                                    </AccordionTrigger>
+
+                                    <AccordionContent className="overflow-visible flex flex-col space-y-6 pt-8 pb-4 border-l border-[#C5A059]/30 ml-2 pl-6">
+                                        {servicesSubLinks.map((sub, i) => (
+                                            <Link
+                                                key={sub.name}
+                                                href={sub.href}
+                                                onClick={() => setMobileMenuOpen(false)}
+                                                className="text-lg md:text-xl uppercase tracking-[0.3em] font-bold text-[#C5A059] hover:text-white transition-colors leading-relaxed block"
+                                            >
+                                                {sub.name}
+                                            </Link>
+                                        ))}
+                                    </AccordionContent>
+                                </AccordionItem>
+                            </Accordion>
+                        </div>
+
                         <Link
                             href={'/contact'}
                             onClick={() => setMobileMenuOpen(false)}

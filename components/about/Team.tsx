@@ -54,10 +54,10 @@ const Team = () => {
     };
 
     return (
-        <div className="bg-white w-full overflow-hidden text-[#1A365D] pt-20">
+        <div className="bg-white w-full overflow-hidden text-[#1A365D] pt-8 md:pt-20">
             <div className="max-w-7xl mx-auto px-4">
 
-                <section className="flex flex-col md:flex-row items-center gap-10 md:gap-20 mb-32">
+                <section className="flex flex-col md:flex-row items-center gap-10 md:gap-20 mb-14 md:mb-20">
 
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -99,7 +99,7 @@ const Team = () => {
                     </motion.div>
                 </section>
 
-                <section className="pb-32">
+                <section className="pb-20 md:pb-32">
                     <ScrollFloat
                         animationDuration={1.2}
                         ease='expo.out'
@@ -127,7 +127,7 @@ const Team = () => {
                                         alt={member.name}
                                         className="w-full h-full object-cover"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent md:opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                                         <p className="text-white text-[9px] uppercase tracking-[0.3em] mb-1 font-bold">
                                             {member.role}
                                         </p>
@@ -135,6 +135,7 @@ const Team = () => {
                                             {member.name}
                                         </p>
                                     </div>
+
                                 </div>
 
                             </motion.div>

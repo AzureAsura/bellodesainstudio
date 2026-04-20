@@ -14,18 +14,19 @@ const WhyChooseUs = () => {
     ];
 
     return (
-        <section className="bg-white py-24 px-4 overflow-hidden">
+        <section className="bg-white py-14 md:py-20 px-4 overflow-hidden">
             <div className="max-w-7xl mx-auto">
-                <div className="flex flex-col items-center text-center mb-20">
-                    <div className="flex items-center gap-3 mb-6">
+                <div className="flex flex-col items-center text-center mb-10 md:mb-20">
+                    <div className="flex items-center gap-3 mb-3 md:mb-6">
                         <span className="w-[1px] h-4 bg-[#C5A059]" />
                         <span className="text-[10px] uppercase tracking-[0.5em] text-[#C5A059] font-bold">Our Excellence</span>
                         <span className="w-[1px] h-4 bg-[#C5A059]" />
                     </div>
-                    <h2 className="text-5xl md:text-7xl font-serif font-medium tracking-tight uppercase text-[#1A365D] mb-8">
+
+                    <h2 className="text-4xl md:text-7xl font-serif font-medium tracking-tight uppercase text-[#1A365D] mb-4 md:mb-8">
                         Why Choose Us
                     </h2>
-                    <p className="text-base md:text-lg font-medium opacity-80 max-w-3xl text-[#1A365D] leading-relaxed">
+                    <p className="text-sm md:text-lg font-medium opacity-80 max-w-3xl text-[#1A365D] leading-relaxed">
                         One-stop solutions interior design company who stands out as a top-tier choice
                         trusted by both residential and commercial clients.
                     </p>

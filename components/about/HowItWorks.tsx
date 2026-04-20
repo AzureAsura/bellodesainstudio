@@ -30,9 +30,9 @@ const HowItWorks: React.FC = () => {
     };
 
     return (
-        <div className="bg-white w-full overflow-hidden text-[#1A365D] md:pt-20">
+        <div className="bg-white w-full overflow-hidden text-[#1A365D] py-10 md:py-20">
 
-            <section className="relative py-10 px-4 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <section className="relative px-4 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
 
                 <motion.div
                     initial="initial"
